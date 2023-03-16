@@ -33,6 +33,13 @@ a {
     text-decoration-color: red;
 }
 
+.subtitle {
+    color: white;
+    height: 120vh;
+    font-size: 50px;
+    position: absolute;
+}
+
 
 
 

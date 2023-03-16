@@ -23,8 +23,16 @@ h1.title {
 
 h1 {
     color: orange;
+    align-items: center;
+    padding: 60px;
+    position: relative;
 
 }
+
+a {
+    text-decoration: none;
+}
+
 
 
 

@@ -1,0 +1,27 @@
+
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://m.media-amazon.com/images/I/61F1vr8dCQL._AC_UF894,1000_QL80_.jpg');
+    background-position: center;
+    background-repeat: none;
+    object-fit: cover;
+    filter: blur(30px);
+    position: absolute;
+    z-index: -1;
+
+}
+.loading-text {
+    font-size: 50px;
+    color: #8D93FF;
+}

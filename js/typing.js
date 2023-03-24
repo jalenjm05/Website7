@@ -3,16 +3,22 @@ const speedEl = document.getElementById('speed')
 const text = "We love Programming!!!"
 let idx = 1
 let speed = 300 / 4
-speedEl.addEventListener('input')
-writeText
+
+
+
+speedEl.addEventListener('input', (element) => {
+    speed = 300 / element.target.value
+})
+
+writeText()
 
 
 function writeText(){
-    textEl.innerText = text.slice(0,1)
+    textEl.innerText = text.slice(0,idx)
     idx++
 
     if (idx > text.length){
         idx = 1
     }
-    setTimeOut(writeText, speed)
+    setTimeout(writeText, speed)
 }

@@ -3,7 +3,7 @@ const speedEl = document.getElementById('speed')
 const text = "We love Programming!!!"
 let idx = 1
 let speed = 300 / 4
-
+speedEl.addEventListener('input')
 writeText
 
 

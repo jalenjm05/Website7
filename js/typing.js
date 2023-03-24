@@ -9,4 +9,10 @@ writeText
 
 function writeText(){
     textEl.innerText = text.slice(0,1)
+    idx++
+
+    if (idx > text.length){
+        idx = 1
+    }
+    setTimeOut(writeText. speed)
 }

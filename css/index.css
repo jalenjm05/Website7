@@ -42,7 +42,10 @@ h1.subtitle {
     position: absolute;
 }
 
-
+a.row2 {
+    height: 60vh;
+    position: relative;
+}
 
 
 

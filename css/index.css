@@ -31,11 +31,12 @@ h1.title {
 
 }
 
-h1 {
+h3 {
     color: orange;
     align-items: center;
     padding: 60px;
     position: relative;
+    font-size: 30px
 
 }
 

@@ -1,1 +1,3 @@
-const home document.querySelectorAll('.panel')
+const home document.querySelectorAll('.btn')
+
+home.addEventListener('click )

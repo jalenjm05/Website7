@@ -9,7 +9,14 @@ body {
     overflow: hidden;
 }
 
-.container {
+.home {
+    position: relative;
+    height: 90vh;
+}
+
+.times {
+    position: relative;
+    align-items: center;
     
 }
 

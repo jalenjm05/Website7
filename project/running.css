@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro&display=swap');
 
 body {
     font-family: 'Lato', sans-serif;
@@ -6,6 +6,10 @@ body {
     color: #222222;
     margin: 0;
     overflow-x: hidden;
+}
 
+.container {
+    align-items: center;
+    
 }
 

@@ -1,0 +1,40 @@
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.rect {
+    position: relative;
+}
+
+
+h2 {
+    position: relative;
+    color: red;
+    padding: 20px;
+}
+
+
+.words {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+
+
+
+

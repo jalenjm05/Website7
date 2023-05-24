@@ -1,26 +1,31 @@
 
 
 body {
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
     margin: 0;
     overflow: hidden;
 }
 
 .home {
     position: relative;
-    height: 90vh;
 }
 
 .times {
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-    margin: 10px 500px;
+    position: relative;
+    text-align: right;
+    padding: 20px;
 }
+
+.pics {
+    display: flex;
+    margin: -250px 0px;
+    height: 40vh;
+    width: 70vw;
+    border-radius: 50px;
+    position: relative;
+
+}
+
+
 
 
 
